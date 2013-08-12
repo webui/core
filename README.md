@@ -5,7 +5,7 @@ WebUI core
 
 **WebUI** - set of HTML components with OOP approach. You can create any HTML component with easy
 interface to react on their actions. In case, when you change HTML structure, you don't need to change
-anything in WebUI component, because you work with direct elements and not use jQuery selectors to
+anything in WebUI component, because you work with direct elements and don't use jQuery selectors to
 find element in whole document. You can move element around, but you still have pointer to all elements
 in this component!
 
