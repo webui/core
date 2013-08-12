@@ -18,7 +18,8 @@ $webui || $webui = {
 
 
 /*
-// How to create WebUI component. In example we create simple WebUI.Button
+// How to create WebUI component.
+// In this example we create simple WebUI.Button
 
 $webui.extend('Button', {
 
