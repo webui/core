@@ -15,3 +15,29 @@ $webui || $webui = {
     dropdown: function(options) { return new this.Dropdown(options); },
     search: function(options) { return new this.Search(options); }
 };
+
+
+/*
+// How to create WebUI component. In example we create simple WebUI.Button
+
+$webui.extend('Button', {
+
+    init: function(options) {
+        console.log('y6y5y5t', this);
+        var defaults = {
+            text: 'Button',
+            help_text: null
+        };
+        this.options = $.extend(defaults, options);
+
+        this.element = $('<button type="button" class="webui button"></button>');
+        this.set_text(this.options.text);
+    },
+
+    set_text: function(text) {
+        this.element.text(text);
+        return this;
+    }
+
+});
+*/
