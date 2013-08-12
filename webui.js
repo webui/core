@@ -24,7 +24,6 @@ $webui || $webui = {
 $webui.extend('Button', {
 
     init: function(options) {
-        console.log('y6y5y5t', this);
         var defaults = {
             text: 'Button',
             help_text: null
