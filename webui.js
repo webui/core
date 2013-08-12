@@ -30,7 +30,7 @@ $webui.extend('Button', {
         };
         this.options = $.extend(defaults, options);
 
-        this.element = $('<button type="button" class="webui button"></button>');
+        this.element = $('<button type="button" class="webui button" />');
         this.set_text(this.options.text);
     },
 
