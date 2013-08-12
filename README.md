@@ -17,4 +17,4 @@ You can dynamical load any component of WebUI and create their instance in this 
  * ``$webui.button( {...initial options...} )`` - create instance of WebUI.Button
  * ``$webui.search( {...initial options...} )`` - create instance of WebUI.Search
  * ``$webui.dropdown( {...initial options...} )`` - create instance of WebUI.Dropdown
- * etc...
+ * _etc..._
