@@ -31,6 +31,8 @@ WebUI elements to be sure that all work well.
  * ``button`` - button
  * ``input`` - input field (can be: search, password, date, datetime, ...)
  * ``select`` - in addition to default behaviour can be filtered with user input and dynamic data loading
+ * ``text`` - one or multiple paragraphs inside this block. Can be inline-editable
+ * ``form`` - can be used to validate all data and send to server as one solid request
 
 #### Complex elements
 
@@ -42,3 +44,6 @@ WebUI elements to be sure that all work well.
 #### Tools
 
  * ``template`` - render templates in our special hierarchical style _(like Python)_
+ * ``load_js`` - load any js script and execute
+ * ``load_css`` - load any css and apply
+ * ``load_file`` - load any file from remote server
