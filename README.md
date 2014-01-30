@@ -19,7 +19,7 @@ You can dynamical load any WebUI component (with all dependencies) and create th
 ```javascript
 var button1 = $webui.create('button', {...options...});
 
-$('html').append(button1.render().el);
+$('html > body').append(button1.render().el);
 ```
 
 #### Simple elements
