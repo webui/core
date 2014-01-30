@@ -37,4 +37,4 @@ WebUI elements to be sure that all work well.
  * ``list_view`` - scrolable list of elements with dynamic loading at up and bottom. Horizontal or vertical scrolling
  * ``rating`` - can be used to select stars from list of
  * ``comments`` - based on ``list_view``
- * ``popup`` - extended HTML alert
+ * ``popup`` - extended HTML ``alert()``
