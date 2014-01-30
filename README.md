@@ -38,3 +38,7 @@ WebUI elements to be sure that all work well.
  * ``rating`` - can be used to select stars from list of
  * ``comments`` - based on ``list_view``
  * ``popup`` - extended HTML ``alert()``
+
+#### Tools
+
+ * ``template`` - render templates in our special hierarchical style _(like Python)_
