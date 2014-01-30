@@ -43,7 +43,7 @@ WebUI elements to be sure that all work well.
 
 #### Tools
 
- * [template](/webui/template) - render templates in our special hierarchical style _(like Python)_
+ * [template](https://github.com/webui/template) - render templates in our special hierarchical style _(like Python)_
  * ``load_js`` - load any js script and execute
  * ``load_css`` - load any css and apply
  * ``load_file`` - load any file from remote server
